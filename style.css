@@ -1,0 +1,84 @@
+.header
+{  
+    position:unset;
+    background-color: rgb(16, 13, 110);
+    color: rgb(255, 254, 254);
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 2px;
+    justify-content: space-between;
+    font-size:x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.header h1{
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.menu{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style:circle; color: black;
+    background-color: rgba(247, 193, 124, 0);
+    width: 80%;
+    max-width: 1000px;
+    margin:12px;
+    position: unset;
+    display: flex;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.menu li{
+
+    display:unset;
+    text-align:center;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    display:unset;
+}
+
+.menu li a:hover{
+    background-color:rgb(27, 109, 233);
+    border-radius: 5px;
+    }
+
+.contenido {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    align-items: flex-start;
+    }
+.video {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    border: 1px solid black;
+}
+.video-iframe {
+    width: 800px;
+    height: 500px;
+}
+.introduccion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+}
